@@ -2,25 +2,17 @@
 // Created by N on 2021/03/03.
 //
 
+#include "Skku.h";
 
-class Skku {
-    double grade;
-    double english;
+Skku::Skku(float grade, float english) {
+    this->grade = grade;
+    this->english = english;
 
-// Constructor
-public:
-    Skku(double grade, double english) {
-        this->grade = grade;
-        this->english = english;
+}
+bool Skku::isPassSamsung() {
+    if (grade > 3.5f && english > 50.0f) {
+        return true;
     }
-    
-// Methods
-public:
-    bool isPassSamsung() {
-        if (grade > 3.5 && english > 50) {
-            return true;
-        }
-        else return false;
-    }
+    else return false;
 
-};
+}

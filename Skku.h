@@ -6,12 +6,16 @@
 #define CLASS_SKKU_H
 
 class Skku {
+    float grade;
+    float english;
+
     // Constructor
 public:
-    Skku(double grade, double english);
+    Skku(float grade, float english);
 // Methods
+
 public:
     bool isPassSamsung();
-}
+};
 
 #endif //CLASS_SKKU_H
