@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Skku.cpp"
+#include "Skku.h"
 
 using namespace std;
 

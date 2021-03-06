@@ -2,7 +2,6 @@
 // Created by N on 2021/03/03.
 //
 
-#include "Skku.h"
 
 class Skku {
     double grade;
